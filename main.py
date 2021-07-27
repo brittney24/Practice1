@@ -1,11 +1,9 @@
-#This is a practice Python.
-input1 = int(input("Please enter a number: "))
-input2 = int(input("Please enter a number: "))
-input3 = int(input("Please enter a number: "))
-input4 = int(input("Please enter a number: "))
-
-print("This is your average: " + str(input1 + input2 + input3 + input4) / 4)
-
-total = int(input("What is your total bill?: "))
-diner = int(input("How many diners ate this meal?: "))
-print("This is how much each person should pay: " + str())
+import turtle
+t = turtle.Turtle()
+for c in ['red', 'green', 'yellow', 'blue', 'purple']:
+  t.color(c)
+  t.forward(9)
+  t.left(45)
+  t.forward(9)
+  t.right(35)
+  t.forward(9)
